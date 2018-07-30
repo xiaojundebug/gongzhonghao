@@ -1,6 +1,6 @@
 # wechat-public-account
 
-一个用 nodejs+koa2+图灵机器人开发的简单个人公众号
+用 nodejs+koa2+图灵机器人开发一个简单的个人公众号
 
 ## 目录说明
 
