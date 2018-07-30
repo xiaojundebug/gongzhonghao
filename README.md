@@ -33,3 +33,15 @@
 ## 使用方法
 
 懒得写太多了，具体接入流程网上很多，请自行修改配置文件，不多说了，内网穿透用的是 natapp
+
+## 预览
+
+![preview](/images/01.png)
+
+![preview](/images/02.png)
+
+![preview](/images/03.png)
+
+## 扫码体验
+
+![qrcode](/images/qrcode.jpg)

@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "dev": "node_modules/.bin/nodemon app.js"
+    "dev": "node_modules/.bin/nodemon app.js",
+    "prd": "pm2 start app.js --name 'gongzhonghao'"
   },
   "dependencies": {
     "axios": "^0.18.0",

@@ -76,7 +76,7 @@ class WeChat {
             accessTokenJson.access_token = result.access_token;
             accessTokenJson.expires_time = new Date().getTime() + parseInt(result.expires_in) * 1000;
             // 更新本地存储的
-            fs.writeFile("./wechat/access_token.json", JSON.stringify(accessTokenJson));
+            fs.writeFile("./wechat/access_token.json", JSON.stringify(accessTokenJson), err => {});
             resolve(accessTokenJson.access_token);
           })
           .catch(err => {
