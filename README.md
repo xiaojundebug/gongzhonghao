@@ -1,6 +1,6 @@
 # wechat-public-account
 
-用 nodejs+koa2+图灵机器人开发一个简单的个人公众号
+用 nodejs+koa2+图灵机器人 api 开发的一个简单个人公众号
 
 ## 目录说明
 
@@ -11,16 +11,16 @@
 ├── wechat.config.json                // 微信模块配置文件
 ├── turing-robot.config.json          // 图灵机器人模块配置文件
 ├── app.js                            // 项目启动入口
-├── lib                               // 一些模块的封装
-│   ├── http.js                       // 封装的axios模块
-│   └── print.js                      //  封装的日志打印模块
+├── lib                               // 二次封装的一些库
+│   ├── http.js                       // 封装axios
+│   └── print.js                      // 封装chalk
 ├── wechat                            // 微信模块文件夹
 │   ├── access_token.json             // accessToken存储文件
 │   ├── menus.json                    // 菜单配置文件
-│   ├── msg.js                        // 消息模块
-│   └── index.js                      //  主模块
+│   ├── msg.js                        // 消息处理
+│   └── index.js
 ├── turing-robot                      // 图灵机器人模块文件夹
-│   └── index.js                      // 主模块
+│   └── index.js
 ```
 
 ## 功能介绍
@@ -32,16 +32,4 @@
 
 ## 使用方法
 
-懒得写太多了，具体接入流程网上很多，请自行修改配置文件，不多说了，内网穿透用的是 natapp
-
-## 预览
-
-![preview](/images/01.png)
-
-![preview](/images/02.png)
-
-![preview](/images/03.png)
-
-## 扫码体验
-
-![qrcode](/images/qrcode.jpg)
+懒得写太多了，具体接入流程网上很多，请自行修改配置文件，内网穿透用的是 `natapp`
